@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="main" fetch="https://github.com/hasan6034" />
+  <remote name="LOS" fetch="https://github.com/LineageOS" />
+
+  <!-- /* device specific */ -->
+
+  <!-- device -->
+  <project path="device/xiaomi/selene" name="android_device_xiaomi_selene.git" remote="main" revision="rising-14" />
+
+  <!-- vendor -->
+  <project path="vendor/xiaomi/selene" name="legacy_vendor_xiaomi_selene.git" remote="main" revision="14" />
+
+  <!-- kernel -->
+  <project path="kernel/xiaomi/selene" name="yuki_kernel_xiaomi_selene.git" remote="main" revision="niigo" />
+
+  <!-- /* common mtk */ -->
+
+  <!-- hardware -->
+  <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="LOS" revision="lineage-21" />
+
+  <!-- sepolicy -->
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="LOS" revision="lineage-21" />
+
+</manifest>
