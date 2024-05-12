@@ -6,7 +6,7 @@
   <!-- /* device specific */ -->
 
   <!-- device -->
-  <project path="device/xiaomi/selene" name="android_device_xiaomi_selene.git" remote="main" revision="rising-14" />
+  <project path="device/xiaomi/selene" name="android_device_xiaomi_selene.git" remote="main" revision="xd-14" />
 
   <!-- vendor -->
   <project path="vendor/xiaomi/selene" name="legacy_vendor_xiaomi_selene.git" remote="main" revision="14" />
