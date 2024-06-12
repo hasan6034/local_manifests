@@ -6,7 +6,7 @@
   <!-- /* device specific */ -->
 
   <!-- device -->
-  <project path="device/xiaomi/selene" name="android_device_xiaomi_selene.git" remote="main" revision="xd-14" />
+  <project path="device/xiaomi/selene" name="deneme.git" remote="main" revision="lineage-21" />
 
   <!-- vendor -->
   <project path="vendor/xiaomi/selene" name="legacy_vendor_xiaomi_selene.git" remote="main" revision="14" />
@@ -18,6 +18,7 @@
 
   <!-- hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="LOS" revision="lineage-21" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi.git" remote="LOS" revision="lineage-21" />
 
   <!-- sepolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="LOS" revision="lineage-21" />
