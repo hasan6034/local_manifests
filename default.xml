@@ -2,18 +2,18 @@
 <manifest>
   <remote name="main" fetch="https://github.com/hasan6034" />
   <remote name="LOS" fetch="https://github.com/LineageOS" />
-  <remote name="fuki" fetch="https://github.com/TelegramAt25" />
+  <remote name="fuki" fetch="https://github.com/25ji-Telegram-de" />
 
   <!-- /* device specific */ -->
 
   <!-- device -->
-  <project path="device/xiaomi/selene" name="deneme.git" remote="main" revision="lineage-21" />
+  <project path="device/xiaomi/selene" name="device_xiaomi_selene.git" remote="main" revision="main" />
 
   <!-- vendor -->
-  <project path="vendor/xiaomi/selene" name="legacy_vendor_xiaomi_selene.git" remote="main" revision="14" />
+  <project path="vendor/xiaomi/selene" name="android_vendor_xiaomi_selene.git" remote="main" revision="lineage-21" />
 
   <!-- kernel -->
-  <project path="kernel/xiaomi/selene" name="yuki_kernel_xiaomi_selene.git" remote="fuki" revision="niigo" />
+  <project path="kernel/xiaomi/selene" name="android_kernel_xiaomi_selene.git" remote="fuki" revision="yuki" />
 
   <!-- /* common mtk */ -->
 
